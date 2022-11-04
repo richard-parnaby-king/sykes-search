@@ -5,7 +5,7 @@ Laravel based simple search facility with pagination
 ## Installation
 
 ```bash
-composer require richard-parnaby-king/search
+composer require richard-parnaby-king/sykes-search
 php artisan vendor:publish
 php artisan migrate
 
