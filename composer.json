@@ -1,0 +1,26 @@
+{
+    "name": "richard-parnaby-king/sykes-search",
+    "description": "Laravel based simple search facility with pagination",
+    "license": "MIT",
+    "version": "1.0.0",
+    "autoload": {
+        "psr-4": {
+            "RichardPK\\Search\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "RichardPK\\Search\\Tests\\": "tests/",
+            "RichardPK\\Search\\Database\\Seeders": "database/seeders/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "RichardPK\\Search\\ServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
