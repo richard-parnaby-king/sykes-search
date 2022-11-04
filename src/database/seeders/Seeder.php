@@ -5,7 +5,7 @@ use Faker\Factory as Faker;
 use Illuminate\Database\Seeder as BaseSeeder;
 use Illuminate\Support\Facades\DB;
 
-class Seeder extends BaseSeeder
+class SykesSeeder extends BaseSeeder
 {
     public function run()
     {
